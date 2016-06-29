@@ -37,7 +37,7 @@ public class GeneracionDeSujetos_Tests {
     public void genereUnSujeto_FirmaParaUnaPersonaNacional_PropositoOUYSerialCorrectos() throws Exception {
         elResultadoEsperado = "CN=MARCELINO NAVARRO QUIROS (FIRMA), OU=CIUDADANO, O=PERSONA FISICA, C=CR, GivenName=MARCELINO, Surname=NAVARRO QUIROS, SERIALNUMBER=CPF-01-0078-5935";
 
-        laIdentificacion = "01-0078-5935";
+        laIdentificacion = "01-0078-59a35";
         elTipDeIdentificacion = TipoDeIdentificacion.Cedula;
         elNombre = "Marcelino";
         elPrimerApellido = "Navarro";
